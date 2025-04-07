@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="product-image">
+      <img src="https://via.placeholder.com/400x300" alt="Product">
+    </div>
+    <div class="product-details">
+      <h1>Wireless Headphones</h1>
+      <p class="price">$49.99</p>
+      <p class="description">
+        High-quality wireless headphones with noise-cancellation and 20-hour battery life.
+      </p>
+      <div class="actions">
+        <input type="number" id="quantity" value="1" min="1">
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <p id="cart-message"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
